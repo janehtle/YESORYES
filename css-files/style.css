@@ -1,0 +1,18 @@
+body {
+    background-image: url(/images/background.png);
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    margin: 20px;
+}
+
+#envelope {
+    display: block;
+    margin-left: 605px;
+    padding-top: 265px;
+}
+
+#envelope:hover {
+    cursor: pointer;
+}
+

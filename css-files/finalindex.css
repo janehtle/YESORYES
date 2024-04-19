@@ -1,0 +1,25 @@
+body {
+    background-image: url(/images/background.png);
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    margin: 20px;
+}
+
+h1, p {
+    display: flex;
+    justify-content: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans', sans-serif;
+    color:rgb(18, 61, 97);
+}
+
+img {
+    height: 250px;
+    margin-left: 565px;
+    margin-top: 145px;
+}
+
+p {
+    margin-top: 153px;
+    font-size: 30px;
+}

@@ -1,0 +1,33 @@
+body {
+    background-image: url(/images/background.png);
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    margin: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans', sans-serif;
+}
+
+h1, p {
+    display: flex;
+    justify-content: center;
+    color:rgb(18, 61, 97);
+}
+
+h1 {
+    font-size: 50px;
+}
+
+p {
+    font-size: 30px;
+}
+
+#textbox {
+    margin-top: 150px;
+    margin-bottom: 150px;
+    margin-left: 600px;
+    padding: 12px;
+}
+
+#submitBtn {
+    padding: 12px;
+}

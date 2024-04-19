@@ -1,0 +1,43 @@
+body {
+    background-image: url(/images/note.png);
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    margin: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans', sans-serif;
+    font-size: 30px;
+    color:rgb(18, 61, 97);
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+}
+
+input {
+    margin: 0;
+}
+
+.question {
+    padding-top: 220px;
+}
+
+#arrow, #label {
+    display: flex;
+    justify-content: center;
+}
+
+#arrow:hover {
+    cursor: pointer;
+}
+
+#label {
+    font-size: 20px;
+    color: crimson;
+}
